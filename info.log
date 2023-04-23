@@ -231,3 +231,7 @@
 2023-02-05 18:32:16,206 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
 2023-02-05 18:32:16,346 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/klines?symbol=ETH-USDT&interval=1m&limit=1500 HTTP/1.1" 400 38
 2023-02-05 18:32:16,347 ERROR :: Error while making request to /fapi/v1/klines: {'code': -1121, 'msg': 'Invalid symbol.'} (status code = 400)
+2023-02-06 08:56:27,884 DEBUG :: Starting new HTTPS connection (1): api.kucoin.com:443
+2023-02-06 08:56:28,099 DEBUG :: https://api.kucoin.com:443 "GET /api/v2/symbols HTTP/1.1" 200 None
+2023-02-06 08:56:28,123 DEBUG :: Starting new HTTPS connection (1): api.kucoin.com:443
+2023-02-06 08:56:28,280 DEBUG :: https://api.kucoin.com:443 "GET /api/v1/market/candles?symbol=ETH-USDT&type=1min HTTP/1.1" 200 None

@@ -75,8 +75,6 @@ if __name__ == "__main__":
     #Call the get_historical() method from the Client class to retreive candlestick data from Binance
     candles = client.get_historical('ETH-USDT')
     
-    print(candles)
-    
     display_candle_data(candles)
 
     
